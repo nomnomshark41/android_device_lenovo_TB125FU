@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio
+    libfmjni
 
 # Permissions
 PRODUCT_COPY_FILES += \
