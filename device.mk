@@ -97,7 +97,7 @@ PRODUCT_PACKAGES += \
 	
 # FM Radio
 PRODUCT_PACKAGES += \
-    FMRadio
+    FMRadio \
     libfmjni
 
 # Permissions
