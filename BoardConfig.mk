@@ -5,7 +5,7 @@
 #
 
 DEVICE_PATH := device/lenovo/TB125FU
-
+BUILD_BROKEN_DUP_RULES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
