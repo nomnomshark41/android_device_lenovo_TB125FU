@@ -1,28 +1,4 @@
-<!--
-    Input:
-        manifest_isphal.xml
-        manifest_sensor_hidl_v2.xml
-        manifest_audio.xml
-        manifest_bgservice.xml
-        manifest_km41.xml
-        manifest_tee.xml
-        manifest.microtrust.xml
-        manifest_log.xml
-        manifest_aee.xml
-        manifest_boot.xml
-        manifest_netdagent.xml
-        manifest_tetheroffloadservice.xml
-        manifest_pq.xml
-        manifest_mmservice.xml
-        manifest_mmagent.xml
-        manifest_dmc.xml
-        manifest_apmonitor.xml
-        manifest_composer.xml
-        manifest_target_level_r.xml
-        manifest.xml
-        manifest.xml
--->
-<manifest version="4.0" type="device" target-level="5">
+<manifest version="2.0" type="device" target-level="5">
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
@@ -420,8 +396,4 @@
         </interface>
         <fqname>@2.0::IThhDevice/default</fqname>
     </hal>
-    <sepolicy>
-        <version>31.0</version>
-    </sepolicy>
-    <kernel target-level="5"/>
 </manifest>
