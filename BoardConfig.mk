@@ -128,7 +128,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2024-08-05
+VENDOR_SECURITY_PATCH := 2024-09-05
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_lenovo_TB125FU
@@ -142,9 +142,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
-
-# RIL
-ENABLE_VENDOR_RIL_SERVICE := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
