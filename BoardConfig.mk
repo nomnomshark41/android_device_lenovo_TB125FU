@@ -81,15 +81,19 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 #Kernel modules
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
 TARGET_KERNEL_EXT_MODULES := \
-    kernel_modules/met_drv_v2/mt6580 \
-    kernel_modules/met_drv_v2/mt6739 \
-    kernel_modules/met_drv_v2/mt6893 \
+    kernel_modules/met_drv_v2/ \
     kernel_modules/connectivity/conninfra \
-    kernel_modules/connectivity/fmradio/chips/mt6627 \
+    kernel_modules/connectivity/connfem \
+    kernel_modules/connectivity/fmradio \
     kernel_modules/connectivity/wlan/core/gen4m \
-    kernel_modules/connectivity/gps/data_link/plat/v050 \
-    kernel_modules/gpu/gpu_rgx/m1.15ED6070602/services/system \
-    opensource\external\libmnl\libmnl-1.0.4
+    kernel_modules/connectivity/wlan/adaptor \
+    kernel_modules/connectivity/bt/linux_v2 \
+    kernel_modules/connectivity/bt/mt66xx \
+    kernel_modules/connectivity/common \
+    kernel_modules/connectivity/gps/ \
+    kernel_modules/gpu \
+    kernel_modules/udc \
+    opensource/external/libmnl/libmnl-1.0.4
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
