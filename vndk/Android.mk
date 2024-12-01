@@ -11,4 +11,5 @@ LOCAL_MODULE_TARGET_ARCH := arm arm64
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := true
 LOCAL_VENDOR_MODULE := true
+LOCAL_LDFLAGS := -Wl,-soname,libutils-v32.so
 include $(BUILD_PREBUILT)
