@@ -75,9 +75,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_CONFIG := TB125FU_debug_defconfig
 TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 
-#Kernel modules
-#TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
-#TARGET_KERNEL_EXT_MODULES := \
+Kernel modules
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
+TARGET_KERNEL_EXT_MODULES := \
     kernel_modules/met_drv_v2/ \
     kernel_modules/connectivity/conninfra \
     kernel_modules/connectivity/connfem \
@@ -90,12 +90,12 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
     kernel_modules/connectivity/gps/ \
     kernel_modules/udc 
 
-#BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-#BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-#BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-#BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-#BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH))/modules.load))
-#SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH))/modules.load))
+SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
