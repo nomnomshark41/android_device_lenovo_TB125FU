@@ -293,7 +293,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-	hardware/mediatek
+	hardware/mediatek \
+	kernel/lenovo/TB125FU \
+	kernel/lenovo/TB125FU-modules
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/lenovo/TB125FU/TB125FU-vendor.mk)

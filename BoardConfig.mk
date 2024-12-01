@@ -78,7 +78,7 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 #Kernel modules
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
 TARGET_KERNEL_EXT_MODULES := \
-    kernel_modules/met_drv_v2/ \
+    kernel_modules/met_drv_v2 \
     kernel_modules/connectivity/conninfra \
     kernel_modules/connectivity/connfem \
     kernel_modules/connectivity/fmradio \
@@ -87,7 +87,7 @@ TARGET_KERNEL_EXT_MODULES := \
     kernel_modules/connectivity/bt/linux_v2 \
     kernel_modules/connectivity/bt/mt66xx \
     kernel_modules/connectivity/common \
-    kernel_modules/connectivity/gps/ \
+    kernel_modules/connectivity/gps \
     kernel_modules/udc 
 
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load.system_dlkm))
