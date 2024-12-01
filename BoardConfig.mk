@@ -75,7 +75,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_CONFIG := TB125FU_debug_defconfig
 TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 
-Kernel modules
+#Kernel modules
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
 TARGET_KERNEL_EXT_MODULES := \
     kernel_modules/met_drv_v2/ \
