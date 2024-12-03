@@ -78,7 +78,6 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 #Kernel modules
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
 TARGET_KERNEL_EXT_MODULES := \
-    kernel_modules/met_drv_v2 \
     kernel_modules/connectivity/conninfra \
     kernel_modules/connectivity/connfem \
     kernel_modules/connectivity/fmradio \
