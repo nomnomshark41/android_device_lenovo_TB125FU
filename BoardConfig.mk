@@ -81,14 +81,13 @@ TARGET_KERNEL_EXT_MODULES := \
     kernel_modules/connectivity/conninfra \
     kernel_modules/connectivity/connfem \
     kernel_modules/connectivity/fmradio \
-    kernel_modules/connectivity/wlan/core/gen4-mt7663 \
     kernel_modules/connectivity/wlan/adaptor \
     kernel_modules/connectivity/bt/linux_v2 \
     kernel_modules/connectivity/bt/mt66xx \
     kernel_modules/connectivity/common \
     kernel_modules/connectivity/gps \
     kernel_modules/udc 
-#not building     kernel_modules/met_drv_v2 \
+#not building     kernel_modules/met_drv_v2 \ and kernel_modules/connectivity/wlan/core/gen4-mt7663 \
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.vendor_boot))
