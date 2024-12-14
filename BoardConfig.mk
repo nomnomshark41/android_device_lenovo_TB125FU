@@ -83,7 +83,7 @@ TARGET_KERNEL_EXT_MODULES := \
     kernel_modules/connectivity/connfem \
     kernel_modules/connectivity/fmradio \
     kernel_modules/connectivity/wlan/adaptor \
-    kernel_modules/connectivity/wlan/core/gen4m \
+    kernel_modules/connectivity/wlan/core/gen4-mt7663 \
     kernel_modules/connectivity/bt/linux_v2 \
     kernel_modules/connectivity/bt/mt66xx \
     kernel_modules/connectivity/common \
