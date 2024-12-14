@@ -6,6 +6,6 @@ conninfra.ko
 fmradio_drv_mt6631.ko
 gps_drv.ko
 wmt_chrdev_wifi.ko
-wlan_drv_gen4m.ko
+wlan_drv_gen4_mt7663.ko
 met.ko
 udc_lib.ko
