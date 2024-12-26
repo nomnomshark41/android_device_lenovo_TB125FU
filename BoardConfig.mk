@@ -89,7 +89,7 @@ TARGET_KERNEL_EXT_MODULES := \
 	connectivity/gps \
 	udc \
 	fpsgo_cus \
-	met_drv_v2 \    
+	met_drv_v2     
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
