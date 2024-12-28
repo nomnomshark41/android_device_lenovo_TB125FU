@@ -82,7 +82,7 @@ TARGET_KERNEL_EXT_MODULES := \
 	connectivity/connfem \
 	connectivity/fmradio \
 	connectivity/wlan/adaptor \
-	connectivity/wlan/core/gen4-mt7663 \
+	connectivity/wlan/core/gen4m \
 	connectivity/bt/linux_v2 \
 	connectivity/bt/mt66xx \
 	connectivity/common \
