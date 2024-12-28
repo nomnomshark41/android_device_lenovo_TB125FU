@@ -1,4 +1,3 @@
-btmtk_sdio_unify.ko
 btmtk_usb_unify.ko
 wmt_drv.ko
 connfem.ko
