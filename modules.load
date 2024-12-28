@@ -1,10 +1,10 @@
 conninfra.ko
 connfem.ko
+wmt_drv.ko
 fmradio_drv_mt6631.ko
 wmt_chrdev_wifi.ko
 wlan_drv_gen4m.ko
 btmtk_usb_unify.ko
-wmt_drv.ko
 gps_drv.ko
 udc_lib.ko
 fpsgo.ko
