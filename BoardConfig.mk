@@ -99,7 +99,7 @@ SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 
 
 # DTBO
-BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_KERNEL_SEPARATED_DTBO := false
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                  	
