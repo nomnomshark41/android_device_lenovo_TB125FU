@@ -78,14 +78,6 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 #Kernel modules
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
 TARGET_KERNEL_EXT_MODULES := \
-	connectivity/conninfra \
-	connectivity/connfem \
-	connectivity/fmradio \
-	connectivity/wlan/adaptor \
-	connectivity/wlan/core/gen4m \
-	connectivity/bt/mt66xx \
-	connectivity/common \
-	connectivity/gps \
 	udc \
 	fpsgo_cus    
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
