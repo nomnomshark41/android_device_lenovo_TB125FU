@@ -2,6 +2,8 @@
     <hal format="hidl" optional="true">
         <name>android.hardware.radio</name>
         <version>1.0-5</version>
+        <version>1.2</version>
+        <version>1.6</version>
         <interface>
             <name>IRadio</name>
             <instance>em1</instance>
@@ -63,6 +65,7 @@
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.bluetooth.audio</name>
         <version>2.0-1</version>
+        <version>2.2</version>
         <interface>
             <name>IBluetoothAudioProvidersFactory</name>
             <instance>default</instance>
@@ -147,6 +150,8 @@
             <instance>mtk_mnld2mtklogger</instance>
             <instance>mtk_mnld2nlputils</instance>
             <instance>mtk_mtklogger2mnld</instance>
+            <instance>mtk_agpsd2debugService</instance>
+            <instance>mtk_debugService2agpsd</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -158,6 +163,7 @@
             <instance>ConnsysFWHidlServer</instance>
             <instance>MobileLogHidlServer</instance>
             <instance>ModemLogHidlServer</instance>
+            <instance>LoggerHidlServer</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -171,6 +177,7 @@
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mms</name>
         <version>1.0-5</version>
+        <version>1.6</version>
         <interface>
             <name>IMms</name>
             <instance>default</instance>
@@ -199,24 +206,36 @@
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mtkradioex</name>
         <version>2.0</version>
+        <version>3.0</version>
         <interface>
             <name>IMtkRadioEx</name>
             <instance>imsSlot1</instance>
             <instance>imsSlot2</instance>
+            <instance>imsSlot3</instance>
             <instance>mtkAssist1</instance>
             <instance>mtkAssist2</instance>
+            <instance>mtkAssist3</instance>
             <instance>mtkCap1</instance>
             <instance>mtkCap2</instance>
+            <instance>mtkCap3</instance>
             <instance>mtkEm1</instance>
             <instance>mtkEm2</instance>
+            <instance>mtkEm3</instance>
             <instance>mtkRcs1</instance>
             <instance>mtkRcs2</instance>
+            <instance>mtkRcs3</instance>
+            <instance>mtkRsu1</instance>
+            <instance>mtkRsu2</instance>
+            <instance>mtkRsu3</instance>
             <instance>mtkSe1</instance>
             <instance>mtkSe2</instance>
+            <instance>mtkSe3</instance>
             <instance>mtkSlot1</instance>
             <instance>mtkSlot2</instance>
+            <instance>mtkSlot3</instance>
             <instance>mtkSmartRatSwitch1</instance>
             <instance>mtkSmartRatSwitch2</instance>
+            <instance>mtkSmartRatSwitch3</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -238,6 +257,7 @@
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.pq</name>
         <version>2.0-6</version>
+        <version>2.15</version>
         <interface>
             <name>IPictureQuality</name>
             <instance>default</instance>
@@ -250,8 +270,10 @@
             <name>IRadioOp</name>
             <instance>OpImsRILd1</instance>
             <instance>OpImsRILd2</instance>
+            <instance>OpImsRILd3</instance>
             <instance>slot1</instance>
             <instance>slot2</instance>
+            <instance>slot3</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -291,6 +313,83 @@
         <version>1.0</version>
         <interface>
             <name>INxpNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>interfaces.factoryAta</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFactoryAta</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>interfaces.factoryInterface</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFactoryInterface</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFactorySensor</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.battery</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBattery</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.factory</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.misc</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMisc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.touchscreen</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchscreen</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.aee</name>
+        <version>1.1</version>
+        <interface>
+            <name>IAee</name>
+            <instance>AEE</instance>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.microtrust.hardware.thh</name>
+        <version>2.0</version>
+        <interface>
+            <name>IThhDevice</name>
             <instance>default</instance>
         </interface>
     </hal>
