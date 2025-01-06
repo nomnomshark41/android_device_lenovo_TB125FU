@@ -397,25 +397,6 @@
         <fqname>@1.0::IMediaCasService/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.drm</name>
-        <transport>hwbinder</transport>
-        <version>1.4</version>
-        <interface>
-            <name>IDrmFactory</name>
-            <instance>clearkey</instance>
-            <instance>widevine</instance>
-        </interface>
-        <interface>
-            <name>ICryptoFactory</name>
-            <instance>clearkey</instance>
-            <instance>widevine</instance>
-        </interface>
-        <fqname>@1.4::IDrmFactory/clearkey</fqname>
-        <fqname>@1.4::IDrmFactory/widevine</fqname>
-        <fqname>@1.4::ICryptoFactory/clearkey</fqname>
-        <fqname>@1.4::ICryptoFactory/widevine</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.light</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
