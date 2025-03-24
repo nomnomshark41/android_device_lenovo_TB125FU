@@ -1,9 +1,9 @@
 # Firmware - from sys_P98980AA1-user 13 TP1A.220624.014 TB125FU_USR_S100155_2408121353_MP1RC_ROW release-keys
 gz.img;AB
 lk.img;AB
-logo.img;AB
+logo.bin:logo.img;AB
 md1img.img;AB
-preloader_raw.img;AB
+preloader_P98980AA1.bin:preloader_raw.img;AB
 scp.img;AB
 spmfw.img;AB
 sspm.img;AB
