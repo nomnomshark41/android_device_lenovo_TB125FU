@@ -13,10 +13,7 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     system \
-    product \
-    vendor \
-    vbmeta_system \
-    vbmeta_vendor
+    vendor
 
 BOARD_USES_RECOVERY_AS_BOOT := true
 
@@ -174,8 +171,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
-# Vibrator
-TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
 
 # Inherit the proprietary files
 include vendor/lenovo/TB125FU/BoardConfigVendor.mk
