@@ -5,8 +5,8 @@
 //
 
 prebuilt_etc {
-    name: "fstab.mt6768",
-    src: "etc/fstab.mt6768",
+    name: "recovery.fstab",
+    src: "etc/recovery.fstab",
     vendor: true,
     ramdisk_available: true,
 }
