@@ -18,6 +18,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor \
     product
 BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
