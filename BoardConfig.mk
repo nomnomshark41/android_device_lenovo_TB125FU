@@ -11,10 +11,12 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
+    vendor \
     boot \
+    vbmeta_system \
     system \
-    vendor
-
+    vbmeta_vendor \
+    product
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # APEX
