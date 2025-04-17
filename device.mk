@@ -273,8 +273,7 @@ PRODUCT_CHARACTERISTICS := tablet_wifionly
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.mt6768 \
-    fstab.mt6768.ramdisk \
+    recovery.fstab \
     init.cgroup.rc \
     init.connectivity.rc \
     init.mt6768.rc \
