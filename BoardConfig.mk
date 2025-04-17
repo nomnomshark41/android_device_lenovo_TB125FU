@@ -11,12 +11,18 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vendor \
     boot \
+    vendor_boot \
+    dtbo \
+    vbmeta \
     vbmeta_system \
-    system \
     vbmeta_vendor \
-    product
+    system \
+    system_ext \
+    product \
+    vendor \
+    odm \
+    vendor_dlkm
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
