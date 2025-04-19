@@ -84,6 +84,24 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 # DTBO
 BOARD_KERNEL_SEPARATED_DTBO := true
 
+# Kernel modules
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
+TARGET_KERNEL_EXT_MODULES := \
+  connectivity/bt/mt66xx \
+  connectivity/common \
+  connectivity/connfem \
+  connectivity/conninfra \
+  connectivity/fmradio \
+  connectivity/gps \
+  connectivity/wlan/core/gen4m \
+  connectivity/wlan/adaptor \
+  fpsgo_cus \
+  gpu \
+  met_drv/4.14 \
+  met_drv_v2 \
+  udc
+
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                  	
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432 
