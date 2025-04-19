@@ -1,0 +1,13 @@
+ro.com.google.gmsversion=13_202301
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.config.lgsi.code.base=mtk
+ro.config.lgsi.region=row
+ro.config.lgsi.ui.type=TABUI
+ro.config.lgsi.ui.version=5.1
+ro.config.notification_sound=Pollux.ogg
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.opa.eligible_device=true
+ro.product.ab_ota_partitions=boot,system,vendor
+ro.setupwizard.rotation_locked=false
+setupwizard.feature.baseline_setupwizard_enabled=true
+setupwizard.theme=glif_v3_light
