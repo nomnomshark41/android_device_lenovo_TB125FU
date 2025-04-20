@@ -23,7 +23,6 @@ AB_OTA_PARTITIONS += \
     vendor \
     odm \
     vendor_dlkm
-TARGET_NO_RECOVERY := true
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
