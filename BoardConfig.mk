@@ -23,7 +23,6 @@ AB_OTA_PARTITIONS += \
     vendor \
     odm \
     vendor_dlkm
-BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
 # APEX
