@@ -101,6 +101,7 @@ TARGET_KERNEL_EXT_MODULES := \
   met_drv_v2 \
   udc
 
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                  	
