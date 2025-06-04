@@ -54,8 +54,6 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    wpa_supplicant \
-    hostapd \
     libwifi-hal-wrapper \
     android.hardware.wifi-service
 
