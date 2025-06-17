@@ -1,4 +1,4 @@
-# Android device tree for Lenovo Tab M10 Plus 3rd gen (TB125FU)
+# Android device tree for Lenovo Tab M10 Plus 3rd gen (TB125FU) WIP
 
 ```
 #
