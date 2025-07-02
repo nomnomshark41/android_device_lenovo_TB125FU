@@ -18,11 +18,8 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     vbmeta_vendor \
     system \
-    system_ext \
     product \
-    vendor \
-    odm \
-    vendor_dlkm
+    vendor
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
