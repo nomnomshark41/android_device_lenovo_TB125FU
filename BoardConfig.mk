@@ -112,7 +112,7 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Partitions (Dynamic)
 BOARD_SUPER_PARTITION_GROUPS := lenovo_dynamic_partitions
-BOARD_LENOVO_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system system_ext vendor vendor_dlkm
+BOARD_LENOVO_DYNAMIC_PARTITIONS_PARTITION_LIST := product system vendor
 BOARD_LENOVO_DYNAMIC_PARTITIONS_SIZE := 6438256640 # BOARD_SUPER_PARTITION_SIZE - 4MB
 -include vendor/lineage/config/BoardConfigReservedSize.mk
  
