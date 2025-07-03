@@ -82,7 +82,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Kernel modules
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/lenovo/TB125FU-modules
 TARGET_KERNEL_EXT_MODULES := \
-  connectivity/bt/mt66xx/wmt \
+  connectivity/bt/mt66xx \
   connectivity/common \
   connectivity/connfem \
   connectivity/conninfra \
