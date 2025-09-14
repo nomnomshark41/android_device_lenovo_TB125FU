@@ -1,0 +1,21 @@
+[package]
+name = "android_device_lenovo_tb125fu"
+version = "0.1.0"
+edition = "2021"
+description = "Android device configuration library for Lenovo TB125FU"
+authors = ["Android Device Tree Maintainers"]
+license = "Apache-2.0"
+
+[lib]
+name = "android_device_lenovo_tb125fu"
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []
+hal-proxy = []
+sensor-support = []
+lights-support = []
